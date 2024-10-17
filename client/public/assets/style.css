@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.search-container input[type="text"],
+.search-container select {
+    padding: 10px;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1; /* Makes input fields responsive */
+}
+
+.search-container button {
+    padding: 10px 15px;
+    background-color: #4CAF50; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #45a049; /* Darker shade on hover */
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.filters label {
+    margin-right: 10px;
+}
+
+.filters input[type="number"] {
+    padding: 10px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 150px; /* Fixed width for max price */
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
